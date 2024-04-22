@@ -174,7 +174,7 @@ public class App {
         Context subtractContext = new Context(new OperationSubtract());
         System.out.println(subtractContext.executeStrategy(123, 12));
 
-        // Example for Tempplate Pattern
+        // Example for Template Pattern
         BeverageMaker teaMaker = new TeaMaker();
         teaMaker.makeBeverage();
     }
